@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal - Contato</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsivo.css">
+</head>
+<body>
+    <header>
+        <img src="../css/img/logo-ford-256.png" alt="Logo da Ford" class="header__logo">
+
+        <nav class="nav__links">
+            <a href="home.html">Home</a>
+            <a href="lancamentos.html">Lançamentos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="main-contact">
+        <img class="main-contact__img" src="../css/img/xls 2.2 diesel.jpg" alt="">
+
+        <form class="main-contact__form">
+            <label>Sobre você</label>
+            <input type="text" placeholder="Nome Completo">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Telefone">
+            <label>Mensagem</label>
+            <select name="messageType" id="messageType" required>
+                <option value="" selected disabled>--Selecione o tipo de contato</option>
+                <option value="praise">Elogio</option>
+                <option value="complaint">Reclamação</option>
+                <option value="request">Solicitação</option>
+            </select>
+            <input type="text" placeholder="Digite sua mensagem">
+        </form>
+
+        <button class="main-contact__btn" id="send">Enviar</button>
+    </main>
+
+    <footer>
+        <div class="footer__social-media">
+            <button onclick="showPopUp()" class="social-media__btn">Redes Sociais</button>
+            <div class="social-media__links" id="socialMediaPopUp">
+                <a href="https://pt-br.facebook.com/ford/photos/" type="button" target="_blank">
+                    <img src="../css/img/facebook-50.png" alt="Ícone do Facebook">
+                </a>
+        
+                <a type="button" target="_blank" href="https://pt-br.facebook.com/ford/photos/">
+                    <img src="../css/img/youtube-squared-50.png" alt="Ícone do Youtube">
+                </a>
+        
+                <a type="button" target="_blank" href="https://pt-br.facebook.com/ford/photos/" >
+                    <img src="../css/img/instagram-logo-50.png" alt="Ícone do Instagram">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer__text">
+            <p>&copy; 2025 Ford Motor Company</p>
+            <p>All Rights Reserved</p>
+        </div>
+        <img src="../css/img/ford-96.png" alt="Logo da Ford" class="footer__logo">
+    </footer>
+    <script src="../app.js"></script>
+</body>
+</html>

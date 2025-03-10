@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal - Home</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsivo.css">
+</head>
+<body>
+    <header>
+        <img src="../css/img/logo-ford-256.png" alt="Logo da Ford" class="header__logo">
+
+        <nav class="nav__links">
+            <a href="home.html">Home</a>
+            <a href="lancamentos.html">Lançamentos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    
+    <main class="main-home">
+        <a href="./lancamentos.html" class="main-home__img">
+            <img src="../css/img/imagem_1.jpg" alt="Foto Ranger Ford 2022" class="main-home__img">
+        </a>
+
+        <p>Essa é a nova Ranger Ford 2022. Verifique novidades <a href="./lancamentos.html">aqui.</a></p>
+    </main>
+
+    <footer>
+        <div class="footer__social-media">
+            <button onclick="showPopUp()" class="social-media__btn">Redes Sociais</button>
+            <div class="social-media__links" id="socialMediaPopUp">
+                <a href="https://pt-br.facebook.com/ford/photos/" type="button" target="_blank">
+                    <img src="../css/img/facebook-50.png" alt="Ícone do Facebook">
+                </a>
+        
+                <a type="button" target="_blank" href="https://pt-br.facebook.com/ford/photos/">
+                    <img src="../css/img/youtube-squared-50.png" alt="Ícone do Youtube">
+                </a>
+        
+                <a type="button" target="_blank" href="https://pt-br.facebook.com/ford/photos/" >
+                    <img src="../css/img/instagram-logo-50.png" alt="Ícone do Instagram">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer__text">
+            <p>&copy; 2025 Ford Motor Company</p>
+            <p>All Rights Reserved</p>
+        </div>
+        <img src="../css/img/ford-96.png" alt="Logo da Ford" class="footer__logo">
+    </footer>
+    <script src="../app.js"></script>
+</body>
+</html>
