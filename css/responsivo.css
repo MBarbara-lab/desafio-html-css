@@ -101,7 +101,7 @@
     .main-contact {
         width: 80vw;
         grid-template-columns: 0 100%;
-        grid-template-rows: 0.5fr 1.5fr 0.5fr;
+        grid-template-rows: 0.5fr 1.5fr;
         column-gap: 0;
     }
 
