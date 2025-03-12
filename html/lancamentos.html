@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/responsivo.css" />
+    <link rel="stylesheet" href="../css/lancamentos.css">
   </head>
   <body>
     <header>
@@ -29,9 +30,9 @@
         src="https://www.youtube.com/embed/vQsryuNmsL0?autoplay=1&mute=1&controls=0"
       ></iframe>
 
-      <table class="">
-        <tr>
-          <td>
+      <table class="main-releases__cars">
+        <tr class="cars__row">
+          <td class="cars__row__car">
             <img
               class="car__img"
               src="../css/img/XL Cabine.jpg"
@@ -47,7 +48,7 @@
             </div>
           </td>
 
-          <td>
+          <td class="main-releases__cars__car">
             <img
               class="car__img"
               src="../css/img/xls 2.2 diesel.jpg"
@@ -63,7 +64,7 @@
             </div>
           </td>
 
-          <td>
+          <td class="main-releases__cars__car">
             <img
               class="car__img"
               src="../css/img/storm.jpg"
@@ -86,52 +87,28 @@
 
     <footer>
       <div class="footer__social-media">
-        <button onclick="showPopUp()" class="social-media__btn">
-          Redes Sociais
-        </button>
-        <div class="social-media__links" id="socialMediaPopUp">
-          <a
-            href="https://pt-br.facebook.com/ford/photos/"
-            type="button"
-            target="_blank"
-          >
-            <img src="../css/img/facebook-50.png" alt="Ícone do Facebook" />
-          </a>
-
-          <a
-            type="button"
-            target="_blank"
-            href="https://pt-br.facebook.com/ford/photos/"
-          >
-            <img
-              src="../css/img/youtube-squared-50.png"
-              alt="Ícone do Youtube"
-            />
-          </a>
-
-          <a
-            type="button"
-            target="_blank"
-            href="https://pt-br.facebook.com/ford/photos/"
-          >
-            <img
-              src="../css/img/instagram-logo-50.png"
-              alt="Ícone do Instagram"
-            />
-          </a>
-        </div>
+          <button onclick="showPopUp()" class="social-media__btn">Redes Sociais</button>
+          <div class="social-media__links" id="socialMediaPopUp">
+              <a href="https://pt-br.facebook.com/ford/photos/" type="button" target="_blank">
+                  <img src="../css/img/facebook-50.png" alt="Ícone do Facebook">
+              </a>
+      
+              <a type="button" target="_blank" href="https://www.youtube.com/user/ford">
+                  <img src="../css/img/youtube-squared-50.png" alt="Ícone do Youtube">
+              </a>
+      
+              <a type="button" target="_blank" href="https://www.instagram.com/ford/" >
+                  <img src="../css/img/instagram-logo-50.png" alt="Ícone do Instagram">
+              </a>
+          </div>
       </div>
 
       <div class="footer__text">
-        <p>&copy; 2025 Ford Motor Company</p>
-        <p>All Rights Reserved</p>
+          <p>&copy; 2025 Ford Motor Company</p>
+          <p>All Rights Reserved</p>
       </div>
-      <img
-        src="../css/img/ford-96.png"
-        alt="Logo da Ford"
-        class="footer__logo"
-      />
-    </footer>
+      <img src="../css/img/ford-96.png" alt="Logo da Ford" class="footer__logo">
+  </footer>
     <script src="../app.js"></script>
   </body>
 </html>
