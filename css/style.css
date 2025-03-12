@@ -51,6 +51,12 @@ header {
     text-decoration: none;
     color: var(--blue);
     font-weight: 400;
+    transition: scale 0.5s , margin 0.5s;
+}
+
+.nav__links > a:hover {
+    scale: 1.1;
+    margin: 0px 5px;
 }
 
 footer {
@@ -296,6 +302,6 @@ form > select:focus-within {
     font-size: 2vh;
 }
 
-.main-contact__btn:hover {
+.form__btn:hover {
     background-color: var(--blue-hover);
 }
