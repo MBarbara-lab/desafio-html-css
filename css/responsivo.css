@@ -47,10 +47,9 @@
         width: 70px;
         height: 4vh;
         font-weight: 500;
-        overflow-y: hidden;
-        overflow-x: hidden;
-        padding: 7px;
-        line-height: 2.28vh;
+        overflow: hidden;
+        padding: 5px;
+        line-height: 3vh;
     }
 
     .social-media__links {
@@ -80,30 +79,19 @@
     }
 
     tr {
-        display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
     td {
-        width: auto;
+        width: 100%;
         padding: 0;
-        height: fit-content;
+        height: 100%;
     }
 
     .car__img {
         width: 60%;
      }
-
-    /* .main-releases {
-        row-gap: 5vh;
-    }
-
-    .main-releases__cars {
-        flex-direction: column;
-        row-gap: 50px;
-        column-gap: 0;
-    } */
 
     .main-releases__btn {
         width: 40vw;
@@ -113,10 +101,21 @@
     .main-contact {
         width: 80vw;
         grid-template-columns: 0 100%;
+        grid-template-rows: 0.5fr 1.5fr 0.5fr;
         column-gap: 0;
     }
 
     .main-contact__img {
-        display: none;
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: center;
+    }
+
+    .main-contact__form {
+        grid-row: 2;
+    }
+
+    .main-contact__btn {
+        grid-row: 3;
     }
 }

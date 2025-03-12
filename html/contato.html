@@ -29,12 +29,13 @@
             <input type="text" placeholder="Telefone">
             <label>Mensagem</label>
             <select name="messageType" id="messageType" required>
-                <option value="" selected disabled>--Selecione o tipo de contato</option>
+                <option value="" selected disabled>--Selecione o tipo de contato--</option>
                 <option value="praise">Elogio</option>
                 <option value="complaint">Reclamação</option>
                 <option value="request">Solicitação</option>
             </select>
-            <input type="text" placeholder="Digite sua mensagem">
+            <textarea name="message" id="contactMessage" cols="1" rows="2" class="form__message" placeholder="Digite sua mensagem"></textarea>
+            <!-- <input type="text" placeholder="Digite sua mensagem" class="form__message"> -->
         </form>
 
         <button class="main-contact__btn" id="send">Enviar</button>
