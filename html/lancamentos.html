@@ -1,114 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Portal - Lançamentos</title>
-    <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/responsivo.css" />
-    <link rel="stylesheet" href="../css/lancamentos.css">
-  </head>
-  <body>
-    <header>
-      <img
-        src="../css/img/logo-ford-256.png"
-        alt="Logo da Ford"
-        class="header__logo"
-      />
 
-      <nav class="nav__links">
-        <a href="home.html">Home</a>
-        <a href="lancamentos.html">Lançamentos</a>
-        <a href="contato.html">Contato</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portal - Lançamentos</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/responsivo.css" />
+  <link rel="stylesheet" href="../css/lancamentos.css">
+</head>
 
-    <main class="main-releases">
-      <iframe
-        class="main-releases__video"
-        src="https://www.youtube.com/embed/vQsryuNmsL0?autoplay=1&mute=1&controls=0"
-      ></iframe>
+<body>
+  <header>
+    <img src="../css/img/logo-ford-256.png" alt="Logo da Ford" class="header__logo" />
 
-      <table class="main-releases__cars">
-        <tr class="cars__row">
-          <td class="cars__row__car">
-            <img
-              class="car__img"
-              src="../css/img/XL Cabine.jpg"
-              alt="Ranger 2.2 TD XL CS 4x4"
-            />
-            <div class="td__content">
-              <input type="checkbox" class="car__checkbox" />
-              <div class="content__text">
-                <p>Ford Ranger Cabine Simples 2022</p>
-                <span>Ranger 2.2 TD XL CS 4x4</span>
-              </div>
-              <button class="car__btn"></button>
+    <nav class="nav__links">
+      <a href="home.html">Home</a>
+      <a href="lancamentos.html">Lançamentos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main class="main-releases">
+    <iframe class="main-releases__video"
+      src="https://www.youtube.com/embed/vQsryuNmsL0?autoplay=1&mute=1&controls=0"></iframe>
+
+    <table class="main-releases__cars">
+      <tr class="cars__row">
+        <td class="row__car">
+          <img class="car__img" src="../css/img/XL Cabine.jpg" alt="Ranger 2.2 TD XL CS 4x4" />
+          <div class="car__content">
+            <input type="checkbox" class="car__checkbox" />
+            <div class="content__text">
+              <p>Ford Ranger Cabine Simples 2022</p>
+              <span>Ranger 2.2 TD XL CS 4x4</span>
             </div>
-          </td>
-
-          <td class="main-releases__cars__car">
-            <img
-              class="car__img"
-              src="../css/img/xls 2.2 diesel.jpg"
-              alt="XLS 2.2 Turbodiesel 4x4"
-            />
-            <div class="td__content">
-              <input type="checkbox" class="car__checkbox" />
-              <div class="content__text">
-                <p>Ford Ranger Cabine Dupla 2022</p>
-                <span>XLS 2.2 Turbodiesel 4x4</span>
-              </div>
-              <button class="car__btn"></button>
-            </div>
-          </td>
-
-          <td class="main-releases__cars__car">
-            <img
-              class="car__img"
-              src="../css/img/storm.jpg"
-              alt="Storm 3.2 Turbodiesel 20V 4x4"
-            />
-            <div class="td__content">
-              <input type="checkbox" class="car__checkbox" />
-              <div class="content__text">
-                <p>Ford Ranger Cabine Dupla 2022</p>
-                <span>Storm 3.2 Turbodiesel 20V 4x4</span>
-              </div>
-              <button class="car__btn"></button>
-            </div>
-          </td>
-        </tr>
-      </table>
-
-      <button class="main-releases__btn">Comparar Carros</button>
-    </main>
-
-    <footer>
-      <div class="footer__social-media">
-          <button onclick="showPopUp()" class="social-media__btn">Redes Sociais</button>
-          <div class="social-media__links" id="socialMediaPopUp">
-              <a href="https://pt-br.facebook.com/ford/photos/" type="button" target="_blank">
-                  <img src="../css/img/facebook-50.png" alt="Ícone do Facebook">
-              </a>
-      
-              <a type="button" target="_blank" href="https://www.youtube.com/user/ford">
-                  <img src="../css/img/youtube-squared-50.png" alt="Ícone do Youtube">
-              </a>
-      
-              <a type="button" target="_blank" href="https://www.instagram.com/ford/" >
-                  <img src="../css/img/instagram-logo-50.png" alt="Ícone do Instagram">
-              </a>
+            <button class="car__btn"></button>
           </div>
-      </div>
+        </td>
 
-      <div class="footer__text">
-          <p>&copy; 2025 Ford Motor Company</p>
-          <p>All Rights Reserved</p>
+        <td class="row__car">
+          <img class="car__img" src="../css/img/xls 2.2 diesel.jpg" alt="XLS 2.2 Turbodiesel 4x4" />
+          <div class="car__content">
+            <input type="checkbox" class="car__checkbox" />
+            <div class="content__text">
+              <p>Ford Ranger Cabine Dupla 2022</p>
+              <span>XLS 2.2 Turbodiesel 4x4</span>
+            </div>
+            <button class="car__btn"></button>
+          </div>
+        </td>
+
+        <td class="row__car">
+          <img class="car__img" src="../css/img/storm.jpg" alt="Storm 3.2 Turbodiesel 20V 4x4" />
+          <div class="car__content">
+            <input type="checkbox" class="car__checkbox" />
+            <div class="content__text">
+              <p>Ford Ranger Cabine Dupla 2022</p>
+              <span>Storm 3.2 Turbodiesel 20V 4x4</span>
+            </div>
+            <button class="car__btn"></button>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <button class="main-releases__btn">Comparar Carros</button>
+  </main>
+
+  <footer>
+    <div class="footer__social-media">
+      <button onclick="showPopUp()" class="social-media__btn">Redes Sociais</button>
+      <div class="social-media__links" id="socialMediaPopUp">
+        <a href="https://pt-br.facebook.com/ford/photos/" type="button" target="_blank">
+          <img src="../css/img/facebook-50.png" alt="Ícone do Facebook">
+        </a>
+
+        <a type="button" target="_blank" href="https://www.youtube.com/user/ford">
+          <img src="../css/img/youtube-squared-50.png" alt="Ícone do Youtube">
+        </a>
+
+        <a type="button" target="_blank" href="https://www.instagram.com/ford/">
+          <img src="../css/img/instagram-logo-50.png" alt="Ícone do Instagram">
+        </a>
       </div>
-      <img src="../css/img/ford-96.png" alt="Logo da Ford" class="footer__logo">
+    </div>
+
+    <div class="footer__text">
+      <p>&copy; 2025 Ford Motor Company</p>
+      <p>All Rights Reserved</p>
+    </div>
+    <img src="../css/img/ford-96.png" alt="Logo da Ford" class="footer__logo">
   </footer>
-    <script src="../app.js"></script>
-  </body>
+  <script src="../app.js"></script>
+</body>
+
 </html>

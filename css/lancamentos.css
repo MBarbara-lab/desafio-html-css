@@ -16,15 +16,15 @@
     width: 60vw;
 }
 
-table {
+.main-releases__cars {
     height: 20vh;
 }
 
-tr {
+.cars__row {
     display: flex;
 }
 
-td {
+.row__car {
     display: flex;
     flex-direction: column;
     width: 25vw;
@@ -34,7 +34,7 @@ td {
     border-collapse: collapse;
 }
 
-.td__content {
+.car__content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@ td {
 }
 
 .car__img {
-   width: 50%;
+    width: 50%;
 }
 
 .car__checkbox {
@@ -87,23 +87,23 @@ td {
 }
 
 @media all and (max-width: 770px) and (min-width:430px) {
-    td {
+    .row__car {
         width: 30vw;
     }
 }
 
 @media all and (max-width: 430px) {
-    table {
+    .main-releases__cars {
         height: auto;
         width: 90vw;
     }
 
-    tr {
+    .cars__row {
         flex-direction: column;
         gap: 20px;
     }
 
-    td {
+    .row__car {
         width: 100%;
         padding: 0;
         height: 100%;

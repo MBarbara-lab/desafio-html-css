@@ -1,4 +1,4 @@
-function showPopUp () {
+function showPopUp() {
     if (socialMediaPopUp.style.display == "flex") {
         socialMediaPopUp.style.display = "none"
     } else {

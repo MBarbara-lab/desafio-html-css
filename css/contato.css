@@ -23,13 +23,14 @@
     flex-direction: column;
 }
 
-form > h2 {
+form>h2 {
     font-size: 3vh;
     font-weight: 500;
     margin: 2vh 0px;
 }
 
-form > input, .form__message {
+form>input,
+.form__message {
     font-family: var(--main-font);
     border: 2px solid #BAB8B8;
     margin: 5px 0px;
@@ -39,7 +40,7 @@ form > input, .form__message {
     font-size: 2vh;
 }
 
-form > select {
+form>select {
     border: none;
     outline: none;
     font-size: 2vh;
@@ -47,11 +48,12 @@ form > select {
     cursor: pointer;
 }
 
-form > select:focus-within {
+form>select:focus-within {
     color: var(--blue);
 }
 
-.form__select:focus-visible, .form__select:focus-within {
+.form__select:focus-visible,
+.form__select:focus-within {
     outline: none;
     border: var(--blue) 2px solid;
 }
