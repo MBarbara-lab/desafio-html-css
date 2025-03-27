@@ -41,20 +41,21 @@ form>input,
 }
 
 form>select {
-    border: none;
+    margin-left: 10px;
     outline: none;
     font-size: 2vh;
     width: min-content;
     cursor: pointer;
+    border-radius: 5px;
+    border: none;
 }
 
-form>select:focus-within {
+form>select:focus-within, form>select:hover {
     color: var(--blue);
 }
 
 .form__select:focus-visible,
 .form__select:focus-within {
-    outline: none;
     border: var(--blue) 2px solid;
 }
 

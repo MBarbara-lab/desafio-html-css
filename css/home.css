@@ -29,3 +29,12 @@
         text-align: center;
     }
 }
+
+@media all and (max-width: 999px) and (min-width: 431px) {
+    .main-home__img {
+        width: 80vw;
+        height: 40vh;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}

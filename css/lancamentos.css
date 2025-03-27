@@ -61,6 +61,10 @@
     cursor: pointer;
 }
 
+.car__checkbox:checked {
+    background-color: var(--blue);
+}
+
 .car__btn {
     width: 3vh;
     height: 3vh;
